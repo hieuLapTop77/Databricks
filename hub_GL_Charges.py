@@ -7,6 +7,7 @@ dbutils.widgets.text("time_gl_charges", datetime_gl_charges, "Time Parameter")
 # COMMAND ----------
 
 dtm_gl_charges = dbutils.widgets.get("time_gl_charges")
+print(dtm_gl_charges)
 
 # COMMAND ----------
 
